@@ -34,9 +34,11 @@ bld/
 
 /Composite/bin/
 /Composite/obj/
-/Decorator/bin/
-/Decorator/obj/
-/Composite/obj/Debug
+/Composite.Console/bin/
+/Composite.Console/obj/
+/Decorator.Console/bin/
+/Decorator.Console/obj/
+
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
