@@ -1,0 +1,14 @@
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\bin\Debug\net8.0\Decorator.Console.exe
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\bin\Debug\net8.0\Decorator.Console.deps.json
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\bin\Debug\net8.0\Decorator.Console.runtimeconfig.json
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\bin\Debug\net8.0\Decorator.Console.dll
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\bin\Debug\net8.0\Decorator.Console.pdb
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\obj\Debug\net8.0\Decorator.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\obj\Debug\net8.0\Decorator.Console.AssemblyInfoInputs.cache
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\obj\Debug\net8.0\Decorator.Console.AssemblyInfo.cs
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\obj\Debug\net8.0\Decorator.Console.csproj.CoreCompileInputs.cache
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\obj\Debug\net8.0\Decorator.Console.dll
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\obj\Debug\net8.0\refint\Decorator.Console.dll
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\obj\Debug\net8.0\Decorator.Console.pdb
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\obj\Debug\net8.0\Decorator.Console.genruntimeconfig.cache
+C:\r\DesignPatterns\DesignPatterns\Decorator.Console\obj\Debug\net8.0\ref\Decorator.Console.dll
