@@ -1,4 +1,4 @@
-﻿namespace Prototype
+﻿namespace Prototype.DeepCopy
 {
     public class SoldadoDeepCopy : ICloneable
     {
@@ -10,15 +10,15 @@
 
         public SoldadoDeepCopy(SoldadoDeepCopy s)
         {
-            this.Nome = s.Nome;
-            this.Acessorio = s.Acessorio;
-            this.Arma = s.Arma;
+            Nome = s.Nome;
+            Acessorio = s.Acessorio;
+            Arma = s.Arma;
         }
 
         public object Clone()
         {
-            SoldadoDeepCopy soldado =  (SoldadoDeepCopy)this.MemberwiseClone();
-            soldado.Acessorio = (AcessorioDeepCopy)this.Acessorio.Clone();
+            SoldadoDeepCopy soldado = (SoldadoDeepCopy)MemberwiseClone();
+            soldado.Acessorio = (AcessorioDeepCopy)Acessorio.Clone();
             return soldado;
         }
     }

@@ -1,7 +1,8 @@
-﻿using Prototype;
+﻿using Prototype.DeepCopy;
+using Prototype.ShallowCopy;
 
 
-//Exemplo shallou copy prototype não temos a copia  do valor acessorio e sim da refarencia do objeto acessorio
+//Exemplo shallow copy prototype não temos a copia do valor acessorio e sim da refarencia do objeto acessorio
 
 Console.WriteLine("Exemplo shallow copy prototype\n");
 

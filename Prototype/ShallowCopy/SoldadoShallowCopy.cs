@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prototype
+namespace Prototype.ShallowCopy
 {
     public class SoldadoShallowCopy : ICloneable
     {
@@ -12,13 +12,13 @@ namespace Prototype
         public string Arma { get; set; }
         public AcessorioShallowCopy Acessorio { get; set; }
 
-        public SoldadoShallowCopy() {}
+        public SoldadoShallowCopy() { }
 
         public SoldadoShallowCopy(SoldadoShallowCopy s)
         {
-            this.Nome = s.Nome;
-            this.Acessorio = s.Acessorio;
-            this.Arma = s.Arma;
+            Nome = s.Nome;
+            Acessorio = s.Acessorio;
+            Arma = s.Arma;
         }
 
         public object Clone()

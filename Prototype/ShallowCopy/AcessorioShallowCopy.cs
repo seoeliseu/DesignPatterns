@@ -1,4 +1,4 @@
-﻿namespace Prototype
+﻿namespace Prototype.ShallowCopy
 {
     public class AcessorioShallowCopy
     {

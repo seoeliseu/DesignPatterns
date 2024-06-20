@@ -1,4 +1,4 @@
-﻿namespace Prototype
+﻿namespace Prototype.DeepCopy
 {
     public class AcessorioDeepCopy
     {
@@ -6,7 +6,7 @@
 
         public object Clone()
         {
-            return (AcessorioDeepCopy)this.MemberwiseClone();
+            return (AcessorioDeepCopy)MemberwiseClone();
         }
     }
 }
