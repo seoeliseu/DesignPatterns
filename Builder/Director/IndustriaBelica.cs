@@ -14,10 +14,7 @@ namespace Builder.Director
 
         public void MontarArma()
         {
-            _armaBuilder.CriarArma();
-            _armaBuilder.EscolherTipoArma();
-            _armaBuilder.EscolherAcessorios();
-            _armaBuilder.EscolherCor();
+            _armaBuilder.CriarArma().EscolherTipoArma().EscolherAcessorios().EscolherCor();
         }
         public Arma ObterArma()
         {

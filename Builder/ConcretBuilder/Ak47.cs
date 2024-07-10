@@ -6,17 +6,20 @@ namespace Builder.ConcretBuilder
 {
     public class Ak47 : ArmaBuilder
     {
-        public override void EscolherAcessorios()
+        public override ArmaBuilder EscolherAcessorios()
         {
             arma.Acessorios = new List<AcessoriosArmaEnum> { AcessoriosArmaEnum.PenteExtendido, AcessoriosArmaEnum.RedDot };
+            return this;
         }
-        public override void EscolherCor()
+        public override ArmaBuilder EscolherCor()
         {
             arma.Cor = CorArmaEnum.Dourada;
+            return this;
         }
-        public override void EscolherTipoArma()
+        public override ArmaBuilder EscolherTipoArma()
         {
             arma.TipoArma = TipoArmaEnum.RifleAutomatico;
+            return this;
         }
     }
 }

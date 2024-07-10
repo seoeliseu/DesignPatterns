@@ -6,17 +6,20 @@ namespace Builder.ConcretBuilder
 {
     public class M16 : ArmaBuilder
     {
-        public override void EscolherAcessorios()
+        public override ArmaBuilder EscolherAcessorios()
         {
             arma.Acessorios = new List<AcessoriosArmaEnum> { AcessoriosArmaEnum.Supressor, AcessoriosArmaEnum.Lanterna };
+            return this;
         }
-        public override void EscolherCor()
+        public override ArmaBuilder EscolherCor()
         {
             arma.Cor = CorArmaEnum.Camuflada;
+            return this;
         }
-        public override void EscolherTipoArma()
+        public override ArmaBuilder EscolherTipoArma()
         {
             arma.TipoArma = TipoArmaEnum.FuzilDeAssalto;
+            return this;
         }
     }
 }

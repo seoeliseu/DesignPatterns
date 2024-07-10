@@ -6,9 +6,10 @@ namespace Builder.Builder
     {
         protected Arma arma;
 
-        public void CriarArma()
+        public ArmaBuilder CriarArma()
         {
             arma = new Arma();
+            return this;
         }
 
         public Arma ObterArma()
@@ -16,8 +17,8 @@ namespace Builder.Builder
             return arma;
         }
 
-        public abstract void EscolherTipoArma();
-        public abstract void EscolherAcessorios();
-        public abstract void EscolherCor();
+        public abstract ArmaBuilder EscolherTipoArma();
+        public abstract ArmaBuilder EscolherAcessorios();
+        public abstract ArmaBuilder EscolherCor();
     }
 }
