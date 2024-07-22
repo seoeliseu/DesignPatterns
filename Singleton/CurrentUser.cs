@@ -1,6 +1,6 @@
 ﻿namespace Singleton
 {
-    //Implementação basica nao funciona em codigo para implementtações multi-thread ele é falho
+    //Implementação basica não funciona em codigo para implementações multi-thread ele é falho
     public class CurrentUser
     {
         private static CurrentUser _instance;
