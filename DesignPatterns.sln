@@ -59,7 +59,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{B87FD2FE-4D0B-4261-9209-C45BBE1EBFBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{B633435E-8EB1-4B94-9B97-75E1CACB9B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{B633435E-8EB1-4B94-9B97-75E1CACB9B23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{679ABACB-E660-48CA-B4A0-9CF5DBEF4A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{4D2BE211-7EE9-40F2-ABB1-AED4A109CDA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -127,6 +131,10 @@ Global
 		{B633435E-8EB1-4B94-9B97-75E1CACB9B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B633435E-8EB1-4B94-9B97-75E1CACB9B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B633435E-8EB1-4B94-9B97-75E1CACB9B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D2BE211-7EE9-40F2-ABB1-AED4A109CDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2BE211-7EE9-40F2-ABB1-AED4A109CDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2BE211-7EE9-40F2-ABB1-AED4A109CDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2BE211-7EE9-40F2-ABB1-AED4A109CDA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +155,7 @@ Global
 		{A7CEA8A9-7AA0-48CC-BB12-EF780E590C6C} = {C72CA561-A652-456F-8D65-DDC643AB7AEB}
 		{9E9F3F28-3BD0-40B7-A3BB-B3670B3BBD2A} = {9149EEDA-16BE-4DF1-BEC3-BD9E1129B410}
 		{B633435E-8EB1-4B94-9B97-75E1CACB9B23} = {B87FD2FE-4D0B-4261-9209-C45BBE1EBFBA}
+		{4D2BE211-7EE9-40F2-ABB1-AED4A109CDA3} = {679ABACB-E660-48CA-B4A0-9CF5DBEF4A67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D203988-F92F-4D57-85A3-082C9E13FB59}
